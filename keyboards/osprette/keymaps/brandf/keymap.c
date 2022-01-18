@@ -48,21 +48,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                KC_NO,             KC_NO,                    KC_BSPC,            KC_ENT
     ),
     [_NUM] = LAYOUT(
-                                 KC_NO,         KC_NO,         KC_NO,             KC_NO,                    KC_PSLS,            KC_P7,              KC_P8,            KC_P9,
+                                 KC_NO,         KC_NO,         KC_NO,             S(KC_5),                  KC_PSLS,            KC_P7,              KC_P8,            KC_P9,
         KC_NO,    KC_LGUI,       KC_LALT,       KC_LCTL,       KC_LSFT,           KC_NO,                    KC_COMM,            KC_P4,              KC_P5,            KC_P6,                KC_PPLS,        KC_PMNS,
-                  U_UND,         U_CUT,         U_CPY,         U_PST,             U_RDO,                    KC_PDOT,            KC_P1,              KC_P2,            KC_P3,                KC_PAST,
+                  KC_NO,         KC_NO,         KC_NO,         KC_NO,             KC_NO,                    KC_PDOT,            KC_P1,              KC_P2,            KC_P3,                KC_PAST,
                                                                KC_NO,             KC_NO,                    KC_0,               KC_PENT
     ),
     [_SYM] = LAYOUT(
                                  S(KC_COMM),    S(KC_9),       S(KC_0),           S(KC_DOT),                S(KC_1),            S(KC_2),            S(KC_3),          S(KC_4),
-        KC_ESC,   KC_SLSH,       KC_QUOT,       S(KC_LBRC),    S(KC_RBRC),        S(KC_QUOT),               S(KC_BSLS),         KC_RSFT,            KC_RCTL,          KC_RALT,              KC_RGUI,        S(KC_5),
-                  KC_BSLS,       KC_GRV,        KC_LBRC,       KC_RBRC,           S(KC_GRV),                S(KC_7),            S(KC_MINS),         KC_NO,            KC_NO,                S(KC_6),
+        KC_ESC,   KC_SLSH,       KC_QUOT,       S(KC_LBRC),    S(KC_RBRC),        S(KC_QUOT),               S(KC_BSLS),         KC_RSFT,            KC_RCTL,          KC_RALT,              KC_RGUI,        S(KC_6),
+                  KC_BSLS,       KC_GRV,        KC_LBRC,       KC_RBRC,           S(KC_GRV),                S(KC_7),            S(KC_MINS),         KC_NO,            KC_NO,                KC_NO,
                                                                KC_TAB,            KC_SPC,                   KC_NO,              KC_NO
     ),
     [_FUN] = LAYOUT(
                                  KC_F7,         KC_F8,         KC_F9,             KC_PSCR,                  KC_MUTE,            KC_VOLD,            KC_VOLU,          KC_MPLY,
-        KC_F12,   KC_F11,        KC_F4,         KC_F5,         KC_F6,             KC_SCRL,                  KC_NO,              KC_RSFT,            KC_RCTL,          KC_RALT,              KC_RGUI,         KC_MEDIA_STOP,
-                  KC_F10,        KC_F1,         KC_F2,         KC_F3,             KC_PAUS,                  KC_NO,              KC_MRWD,            KC_MPRV,          KC_MNXT,              KC_MFFD,
+        KC_F12,   KC_F11,        KC_F4,         KC_F5,         KC_F6,             KC_SCRL,                  KC_MNXT,            KC_RSFT,            KC_RCTL,          KC_RALT,              KC_RGUI,        KC_MEDIA_STOP,
+                  KC_F10,        KC_F1,         KC_F2,         KC_F3,             KC_PAUS,                  KC_MPRV,            KC_MRWD,            KC_MFFD,          KC_NO,                KC_NO,
                                                                KC_TAB,            KC_SPC,                   KC_NO,              KC_NO
     ),
 };
